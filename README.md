@@ -1,10 +1,18 @@
 # RIDAS: A Multi-Agent Framework for AI-RAN with Representation- and Intention-Driven Agents
-
+![Overall architecture of proposed RIDAS.](Figures/RIDAS_prompt.png)
 RIDAS is a novel multi-agent framework designed for AI-enabled Radio Access Networks (AI-RAN) in the 6G era. It effectively bridges the gap between high-level user intents and low-level network parameter configurations by combining the intent-understanding capabilities of Large Language Models (LLMs) with the fine-grained representation control of user-end agents.
 
 ## Abstract
 
 Sixth-generation (6G) networks demand the tight integration of artificial intelligence (AI) into radio access networks (RANs) to meet stringent quality-of-service (QoS) and resource-efficiency requirements. Existing solutions struggle to bridge the gap between high-level user intents and the low-level, parameterized configurations required for optimal performance. To address this challenge, we propose RIDAS, a multi-agent framework composed of representation-driven agents (RDAs) and an intention-driven agent (IDA). RDAs expose an open interface with tunable control parameters—decomposition rank and quantization bits—enabling an explicit trade-off between distortion and transmission rate. The IDA employs a two-stage planning scheme (bandwidth pre-allocation and reallocation) driven by a Large Language Model (LLM) to map user intents and system state into optimal RDA configurations. Experiments demonstrate that RIDAS supports 44.71% more users than the WirelessAgent framework under equivalent QoS constraints. These results validate the ability of RIDAS to capture user intent and allocate resources more efficiently in AI-RAN environments.
+
+## Results
+<div style="display: flex;">
+  <img src="Figures/used_bandwidth_vs_users.png" width="50%" />
+  <img src="Figures/average_bandwidth_vs_users.png" width="50%" />
+</div>
+
+![Details of bandwidth allocation.](Figures/bandwidth_histogram_latency.png)
 
 ## Framework Architecture
 
