@@ -3,11 +3,11 @@
         "device": "cuda:0",
 
         "model_name": "ViT-B/16",
-        "classifier_path": "/home/dky/FFCP/classifier/classifier_11.pth",
+        "classifier_path": "YOUR_CLASSIFIER_PATH_HERE",
 
         "dataset_name": "cifar10",
         "num_classes": 10,
-        "dataset_path": "/home/dky/DATASETS",
+        "dataset_path": "YOUR_DATASET_PATH_HERE",
 
         "batch_size": 1,
         "num_workers": 8,
@@ -27,7 +27,7 @@
 
         "LLM":{
             "base_url": "https://api.deepseek.com/v1",
-            "API_KEY": "sk-6c5a5566a0de4306aaab9d0f10273069",
+            "API_KEY": "YOUR_API_KEY_HERE",
             "model": "deepseek-chat",
             "temperature": 0.1,
             "max_tokens": 15000,
