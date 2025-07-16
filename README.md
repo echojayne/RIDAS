@@ -119,7 +119,7 @@ python RDA.py
 
 This script will:
 - Load the pre-trained ViT-B/16 CLIP model and the CIFAR-10 dataset.
-- Iterate through all combinations of rank_list ([0, 1, 2, 4, 8]) and quantization_bit_list ([1, 2, 3, 4, 5, 6, 7, 8]) defined in config.json.
+- Iterate through all combinations of rank_list ([0, 1, 2, 4, 8], “0” represents direct quantization without matrix decomposition) and quantization_bit_list ([1, 2, 3, 4, 5, 6, 7, 8]) defined in config.json.
 - For each combination, evaluate the average bitstream length and task accuracy over the test set.
 - Save the results to the path specified by experience_configuration_csv_file_path (i.e., Tables/Memory/experience_configurations.csv).
 
