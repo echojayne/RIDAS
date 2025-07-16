@@ -8,8 +8,8 @@ Sixth-generation (6G) networks demand the tight integration of artificial intell
 
 ## Results
 <div style="display: flex;">
-  <img src="Figures/used_bandwidth_vs_users.png" width="50%" />
-  <img src="Figures/average_bandwidth_vs_users.png" width="50%" />
+  <img src="Figures/used_bandwidth_vs_users.png" width="40%" />
+  <img src="Figures/average_bandwidth_vs_users.png" width="40%" />
 </div>
 
 ![Details of bandwidth allocation.](Figures/bandwidth_histogram_latency.png)
