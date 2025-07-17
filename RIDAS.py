@@ -257,7 +257,7 @@ class SystemConfig:
         can_be_adjusted = True
         
         # Loop while required bandwidth exceeds available, and adjustments are possible
-        while user_config["available_bandwidth"] + self.used_bandwidth > self.total_bandwidth and can_be_adjusted:
+        while user_config["available_bandwidth"] + self.used_bandwidth > self.total_bandwidth and can_be_adjusted and attempt < 10:
             attempt += 1
             logger.warning("="*80)
             logger.warning(f"Bandwidth adjustment attempt #{attempt}:")
