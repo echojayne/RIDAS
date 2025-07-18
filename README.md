@@ -1,4 +1,4 @@
-# RIDAS: A Multi-Agent Framework for AI-RAN with Representation- and Intention-Driven Agents
+# [RIDAS: A Multi-Agent Framework for AI-RAN with Representation- and Intention-Driven Agents](https://arxiv.org/abs/2507.13140)
 ![Overall architecture of proposed RIDAS.](Figures/RIDAS_prompt.png)
 RIDAS is a novel multi-agent framework designed for AI-enabled Radio Access Networks (AI-RAN) in the 6G era. It effectively bridges the gap between high-level user intents and low-level network parameter configurations by combining the intent-understanding capabilities of Large Language Models (LLMs) with the fine-grained representation control of user-end agents.
 
