@@ -159,10 +159,10 @@ If you use this work in your research, please cite our paper:
 ```bibtex
 @misc{RIDAS-AI-RAN,
 	title={RIDAS: A Multi-Agent Framework for AI-RAN with Representation- and Intention-Driven Agents},
-	author={},
+	author={Kuiyuan Ding, Caili Guo, Yang Yang, Jianzhang Guo},
 	year={2025},
 	eprint={},
-	archivePrefix={arXiv},
+	archivePrefix={https://arxiv.org/abs/2507.13140},
 	primaryClass={cs.NI},
 	url={https://github.com/echojayne/RIDAS.git}
 }
