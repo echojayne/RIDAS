@@ -1,6 +1,9 @@
 class prompts:
 
     def bandwidth_allocation(self, user_config, system_config):
+        """
+        生成带宽分配的提示
+        """
         system_prompt = f"""You are an expert in 5G Radio Access Network (RAN) management, tasked with configuring the user-side model, as well as allocating the corresponding bit rate and bandwidth resources. Below are the system descriptions.\n\n
         
         ### User-side Model Description:\n
@@ -90,6 +93,9 @@ class prompts:
         return message
     
     def bandwidth_adjustment(self, user_config, system_config, required_bandwidth):
+        """
+        生成带宽调整的提示
+        """
         system_prompt = f"""
         You are a 5G Radio Access Network (RAN) management expert. Currently, the total system bandwidth is insufficient for newly connecting users. Your task is to configure the user-side models for existing users and adjust their corresponding code rates and bandwidth resources. The following is a description of the system.\n\n
 
@@ -193,7 +199,7 @@ class prompts:
             "can_be_adjusted": {{}}
         }}
         """
-
+        # 要添加一个无法继续修改配置的返回内容
         message = [
             {
                 "role": "system",
@@ -205,5 +211,4 @@ class prompts:
             }
         ]
         return message
-    
 PROMPTS = prompts()
