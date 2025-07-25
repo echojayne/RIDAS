@@ -9,7 +9,7 @@
         "num_classes": 10,
         "dataset_path": "YOUR_DATASET_PATH_HERE",
 
-        "batch_size": 1,
+        "batch_size": 50,
         "num_workers": 8,
 
         "rank_list": [0, 1, 2, 4, 8],
